@@ -1,0 +1,13 @@
+
+.title{
+    font-family:"Metal Mania";
+    font-weight:bold;
+    font-size:x-large;
+    margin:10px 0px 10px 75px;
+    color:blueviolet;
+}
+
+#label{
+    width:100px;
+    display:inline-block;
+}

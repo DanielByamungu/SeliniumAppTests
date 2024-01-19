@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Car Info Collection</title>
+        <meta name="allInfo" content="Car Info Collection Form">
+        <link rel="stylesheet" href="Index.css">
+        <script src="Index.js" async></script>
+        <script src="result.js" async></script>
+    </head>
+    <header class="title">Car Info Collection</header>
+    <br>
+    <form id="thisForm" ACTION="result.html">
+        <div id="div" class="Name">
+          <label id="label">FullName: </label>
+          <input type="text" id="fullName" >
+        </div>
+        <br>
+        <div id="div" class="Address">
+          <label id="label">address: </label>
+          <input type="text" id="address" >
+        </div>
+        <br>
+        <div id="div" class="Province">
+          <label id="label">City: </label>
+          <input type="text" id="city" >
+        </div>
+        <br>
+        <div id="div" class="Province">
+          <label id="label">Province: </label>
+          <input type="text" id="province">
+        </div>
+        <br>
+        <div id="div" class="PostalCode">
+          <label id="label">PostalCode: </label>
+          <input type="text" id="postalCode" placeholder="N2N 2N2">  
+        </div>
+        <br>
+        <div id="div" class="PhoneNumber">
+          <label id="label">phoneNumber: </label>
+          <input type="text" id="phoneNumber" placeholder="222-222-2222">  
+        </div>
+        <br>
+        <div id="div" class="Email">
+          <label id="label">Email: </label>
+          <input type="text" id="email" >  
+        </div>
+        <br>
+        <div id="div" class="Vehicle">
+          <label id="label">Vehicle Brand: </label>
+          <input type="text" id="vehicleMake" > 
+          <label>Vehicle Model</label>
+          <input type="text" id="vehicleModel" > 
+          <label>VehicleYear</label>
+          <input type="text" id="vehicleYear" >   
+        </div>
+      </br>
+        <div>
+          <button id="submit" type="button">SUBMIT</button>
+        </div>
+        <br>
+        <br>
+        <p id="Errors"></p>
+          
+    </form>  
+</html>
